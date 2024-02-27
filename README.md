@@ -4,6 +4,16 @@ Provides [SilverStripe](http://www.silverstripe.org/) syntax highlighting and sn
 
 [![Powered by Sanchez](https://raw.githubusercontent.com/gorriecoe/silverstripe-sanchez/master/resources/poweredby.png)](https://github.com/gorriecoe/silverstripe-sanchez)
 
+## Bug Fix Note
+
+This version currently fixes the issue with `.silverstripe_sanchez` files not being located and loaded (which allows for custom snippets). Until this is merged into the main repository, you can use this version.
+
+* Use node 14
+* Run `npm install`
+* Run `npm run vscode:prepublish`
+* Copy the dist files to the dist folder of your existing extension (e.g. `~/.vscode/extensions/adrianhumphreys.silverstripe-1.0.6/dist/`)
+* Restart VSCode if open, fix should take effect
+
 ## Features
 
 - Reads the project composer.lock file to determine the available snippets.
