@@ -104,7 +104,7 @@
     }
   },
   "dependencies": {
-    "silverstripe-sanchez": "^2.0.0"
+    "silverstripe-sanchez": "git+https://github.com/Iliain/silverstripe-sanchez.git#v2.0.0"
   },
   "devDependencies": {
     "@types/node": "^8.10.25",
